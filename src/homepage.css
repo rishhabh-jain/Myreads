@@ -1,0 +1,31 @@
+.homepage{
+    display : flex ;
+    flex-direction: column;
+}
+.homepage__header{
+    background-color : red;
+}
+.homepage__header > h1 {
+    padding : 20px;
+    font-weight: 700;
+    color : white;
+    text-align: center;
+}
+.homepage__all {
+    display : flex ;
+    flex-direction : row;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding : 20px;
+}
+.homepage> h1 {
+    font-size: 50px;
+    padding-left : 30px;
+}
+.wanttoread{
+    display : flex ;
+    flex-direction : row;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding : 20px;
+}
